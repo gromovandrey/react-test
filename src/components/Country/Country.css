@@ -1,0 +1,20 @@
+.city__card {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.list-group.city__card-list {
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 100px;
+}
+
+@media (max-width: 575px) {
+  .city__card {
+    padding: 10px;
+  }
+}
